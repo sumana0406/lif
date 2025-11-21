@@ -2,7 +2,8 @@ This project simulates an advanced Leaky Integrate-and-Fire (LIF) neuron.
 
 <img width="850" height="347" alt="image" src="https://github.com/user-attachments/assets/7f4a0bc2-7e7a-40b4-acd3-f449e949cc16" />
 
--credits: Research Gate
+- Image credits: Research Gate
+
 
 Attributes:
 - Realistic membrane potential accumulation
@@ -11,8 +12,9 @@ Attributes:
 - Refractory period during which no new spikes can occur
 - Passive leak towards the resting potential (-70 mV)
 
-Files:
-- lif_neuron.py : main simulation
+Files:  
+- lif.py : main simulation
+- visualization.py : the script for creating the graph of simulation.
 - voltages.npy : saved membrane voltage trace
 - spikes.npy : saved spike train (1 = spike, 0 = no spike)
 
