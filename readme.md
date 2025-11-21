@@ -1,5 +1,9 @@
 This project simulates an advanced Leaky Integrate-and-Fire (LIF) neuron.
 
+<img width="850" height="347" alt="image" src="https://github.com/user-attachments/assets/7f4a0bc2-7e7a-40b4-acd3-f449e949cc16" />
+
+-credits: Research Gate
+
 Attributes:
 - Realistic membrane potential accumulation
 - Threshold-based spiking at -55 mV
@@ -26,3 +30,8 @@ Additional Features:
 - Add multiple neurons with synaptic connections
 - Add inhibitory neurons
 - Add adjustable leak, threshold, or adaptive threshold
+
+Ouput of the visualization.py file:
+<img width="1490" height="698" alt="image" src="https://github.com/user-attachments/assets/5de986c6-d16a-4235-8e85-76290ca27a0e" />
+
+
